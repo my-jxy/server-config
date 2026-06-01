@@ -93,3 +93,14 @@ sudo systemctl enable warp-svc
 ---
 
 *最后更新：2026-06-01*
+
+## SOCKS5 代理（手机 Telegram 用）
+
+ECS 上开了 SOCKS5 代理（microsocks），走 WARP 出口。
+
+### 手机 Telegram 设置
+设置 - 高级 - 连接类型 - 使用自定义代理
+- 类型：SOCKS5
+- 地址：socks5.mybb-jy.top
+- 端口：1080
+- 用户名/密码：不填
